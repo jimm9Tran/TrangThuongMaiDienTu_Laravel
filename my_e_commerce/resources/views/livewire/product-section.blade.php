@@ -1,4 +1,4 @@
-<div className='px-10 md:px-20 sm:px-30'>
+<div className='px-10 md:px-20 sm:px-30 py-3'>
     <!-- brand new -->
     <h2 className="font-medium text-[20px] my-3">Brand New</h2>
     <livewire:product-listing />
