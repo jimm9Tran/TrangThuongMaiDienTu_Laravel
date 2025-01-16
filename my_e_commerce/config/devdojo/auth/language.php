@@ -11,7 +11,6 @@ return [
         'show_subheadline' => false,
         'email_address' => 'Email Address',
         'password' => 'Password',
-        'remember_me' => 'Remember me',
         'edit' => 'Edit',
         'button' => 'Continue',
         'forget_password' => 'Forget your password?',
@@ -19,7 +18,6 @@ return [
         'sign_up' => 'Sign up',
         'social_auth_authenticated_message' => 'You have been authenticated via __social_providers_list__. Please login to that network below.',
         'change_email' => 'Change Email',
-        'couldnt_find_your_account' => 'Couldn’t find your account',
     ],
     'register' => [
         'page_title' => 'Sign up',
@@ -33,7 +31,6 @@ return [
         'already_have_an_account' => 'Already have an account?',
         'sign_in' => 'Sign in',
         'button' => 'Continue',
-        'email_registration_disabled' => 'Email registration is currently disabled. Please use social login.',
     ],
     'verify' => [
         'page_title' => 'Verify Your Account',

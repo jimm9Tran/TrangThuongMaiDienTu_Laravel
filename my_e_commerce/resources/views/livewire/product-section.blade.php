@@ -1,17 +1,20 @@
-<div className='px-10 md:px-20 sm:px-30 py-3'>
-    <!-- brand new -->
-    <h2 className="font-medium text-[20px] my-3">Brand New</h2>
-    <livewire:product-listing />
-    
-     <!-- Smartphones & laptops -->
-    <h2 className="font-medium text-[20px] my-3">Smartphones & laptops</h2>
-    <livewire:product-listing />
+<div class='px-10 md:px-20 sm:px-30 py-3'>
+         <!-- Brand New  -->
+        @include('components.navigation.view-all',[
+            'Category' => 'Brand New'
+        ])
+        <livewire:product-listing :category_id="0" :current_product_id="0"/>
 
-    <!-- Outfits -->
-    <h2 className="font-medium text-[20px] my-3">Outfits</h2>
-    <livewire:product-listing />
+        <!-- Smartphones & laptops  -->
+        @include('components.navigation.view-all',[
+            'Category' => 'Digital Products'
+        ])
+        <livewire:product-listing :category_id="4" :current_product_id="0"/>
 
-    <!-- Digital Products -->
-    <h2 className="font-medium text-[20px] my-3">Digital Products</h2>
-    <livewire:product-listing />
-</div>
+        <!-- Outfits  -->
+        @include('components.navigation.view-all',[
+            'Category' => 'Fashion and Apparel'
+        ])
+        <livewire:product-listing :category_id="1" :current_product_id="0"/>
+
+    </div>
