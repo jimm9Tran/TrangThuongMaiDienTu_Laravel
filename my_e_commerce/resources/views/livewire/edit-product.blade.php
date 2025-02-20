@@ -9,14 +9,14 @@
                 <div class="grid sm:grid-cols-12 gap-2 sm:gap-4 py-8 first:pt-0 last:pb-0 border-t first:border-transparent border-gray-200 dark:border-neutral-700 dark:first:border-transparent">
                     <div class="sm:col-span-12">
                         <h2 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                            Edit Product Details
+                            Chỉnh sủa sản phảm
                         </h2>
                     </div>
                     <!-- End Col -->
 
                     <div class="sm:col-span-3">
                         <label for="af-submit-application-full-name" class="inline-block text-sm font-medium text-gray-500 mt-2.5 dark:text-neutral-500">
-                            Product name
+                            Tên sản phẩm
                         </label>
                     </div>
                     <!-- End Col -->
@@ -31,7 +31,7 @@
 
                     <div class="sm:col-span-3">
                         <label for="af-submit-application-email" class="inline-block text-sm font-medium text-gray-500 mt-2.5 dark:text-neutral-500">
-                            Price
+                            Giá
                         </label>
                     </div>
                     <!-- End Col -->
@@ -44,7 +44,7 @@
 
 					<div class="sm:col-span-3">
                         <label for="af-submit-application-email" class="inline-block text-sm font-medium text-gray-500 mt-2.5 dark:text-neutral-500">
-                            Category
+                            Danh mục
                         </label>
                     </div>
                     <!-- End Col -->
@@ -67,7 +67,7 @@
                 <div class="grid sm:grid-cols-12 gap-2 sm:gap-4 py-8 first:pt-0 last:pb-0 border-t first:border-transparent border-gray-200 dark:border-neutral-700 dark:first:border-transparent">
                     <div class="sm:col-span-12">
                         <h2 class="text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                            More Details
+                            Thêm thông tin
                         </h2>
                     </div>
                     <!-- End Col -->
@@ -88,7 +88,7 @@
                     <!-- End Col -->
                     <div class="sm:col-span-3">
                         <label for="af-submit-application-resume-cv" class="inline-block text-sm font-medium text-gray-500 mt-2.5 dark:text-neutral-500">
-                            Product Image
+                            Hình ảnh sản phẩm
                         </label>
                     </div>
                     <!-- End Col -->
@@ -116,7 +116,7 @@
                     <div class="sm:col-span-3">
                         <div class="inline-block">
                             <label for="af-submit-application-bio" class="inline-block text-sm font-medium text-gray-500 mt-2.5 dark:text-neutral-500">
-                                Product description
+                                Miêu tả sản phẩm
                             </label>
                         </div>
                     </div>
@@ -131,9 +131,9 @@
                 <!-- End Section -->
                 <button type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
                     <div wire:loading class="animate-spin inline-block size-4 border-[3px] border-current border-t-transparent text-white-600 rounded-full dark:text-blue-500" role="status" aria-label="loading">
-                      <span class="sr-only">Loading...</span>
+                      <span class="sr-only">Đang tải...</span>
                     </div>  
-                  Submit and Save
+                  Lưu
                 </button>
             </form>
         </div>

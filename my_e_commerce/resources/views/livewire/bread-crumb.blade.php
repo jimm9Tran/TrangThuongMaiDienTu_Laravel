@@ -2,7 +2,7 @@
   <ol class="flex items-center gap-1 text-sm text-gray-600">
     <li>
       <a href="/admin/dashboard" class="block transition hover:text-gray-700">
-        <span class="sr-only"> Home </span>
+        <span class="sr-only"> Trang chủ </span>
 
         <svg
           xmlns="http://www.w3.org/2000/svg"

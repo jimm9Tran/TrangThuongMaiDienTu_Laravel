@@ -32,7 +32,7 @@ class ProductTable extends Component
 
         $product->delete();
 
-        return $this->redirect('/products', navigate: true);
+        // return $this->redirect('/products', navigate: true);
     }
     public function render()
     {

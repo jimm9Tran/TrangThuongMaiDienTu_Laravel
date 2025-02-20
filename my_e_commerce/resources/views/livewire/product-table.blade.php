@@ -11,10 +11,10 @@
 				<div class="px-6 py-4 grid gap-3 md:flex md:justify-between md:items-center border-b border-gray-200 dark:border-neutral-700">
 				  <div>
 					<h2 class="text-xl font-semibold text-gray-800 dark:text-neutral-200">
-					  Product
+					  Sản phẩm	
 					</h2>
 					<p class="text-sm text-gray-600 dark:text-neutral-400">
-					  Add Product, edit and more.
+					  Thêm sản phẩm, chỉnh sửa và ...
 					</p>
 				  </div>
 	  
@@ -25,7 +25,7 @@
 	  
 					  <a wire:navigate class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="/add/product">
 						<svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
-						Add Product
+						Thêm sản phẩm
 					  </a>
 					</div>
 				  </div>
@@ -74,7 +74,7 @@
 								  <a wire:navigate href="">
 									  <div class="flex items-center gap-x-3">
 									  
-										  <img class="inline-block size-[38px] rounded-full" src="{{ Storage::url($product->image)}}" alt="Avatar">
+										  <img class="inline-block size-[38px] rounded-full" src="{{ $product->image }}" alt="Avatar">
 										  <div class="grow">
 											  <span class="block text-sm font-semibold text-gray-800 dark:text-neutral-200">{{str($product->name)->words(3)}}</span>
 										  </div>
@@ -110,17 +110,21 @@
 							  <td class="size-px whitespace-nowrap">
 								<div class="px-6 py-1.5">
 								  <a wire:navigate class="inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="edit/{{$product->id}}/product">
-									Edit
+									Chỉnh sửa
 								  </a>
 								</div>
 							  </td>
 							  <td class="size-px whitespace-nowrap">
 								<div class="px-6 py-1.5">
-								  <a wire:navigate wire:click="delete({{$product->id}})" wire:confirm.prompt="Are you sure?\n\nType DELETE to confirm|DELETE" class="inline-flex items-center gap-x-1 text-sm text-red-500 decoration-2 hover:underline focus:outline-none focus:underline font-medium dark:text-blue-500" href="">
-									Delete
-								  </a>
+									<button 
+										wire:click="delete({{ $product->id }})" 
+										wire:confirm.prompt="Bạn có chắc chắn muốn xoá?\n\nNhập DELETE để xác nhận|DELETE" 
+										class="inline-flex items-center gap-x-1 text-sm text-red-500 hover:underline font-medium dark:text-blue-500"
+									>
+										Xoá
+									</button>
 								</div>
-							  </td>
+							</td>
 							</tr>
 						  @endforeach
 					  @else
@@ -128,7 +132,7 @@
 							  <td class="size-px whitespace-nowrap" colspan="5">
 								  <div class="px-6 py-3">
 									<span class="py-1 px-1.5 inline-flex items-center gap-x-1 text-xs font-medium bg-teal-100 text-teal-800 rounded-full dark:bg-teal-500/10 dark:text-teal-500">
-									  No Data Found!
+									  Không tìm thấy!
 									</span>
 								  </div>
 								</td>

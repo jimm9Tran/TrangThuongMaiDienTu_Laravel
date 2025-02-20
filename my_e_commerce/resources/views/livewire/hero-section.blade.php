@@ -2,37 +2,38 @@
   <div class="mx-auto max-w-screen-xl px-4 py-10 lg:flex lg:items-center">
     <div class="mx-auto max-w-xl text-center">
       <h1 class="text-3xl font-extrabold sm:text-5xl">
-        Online Marketplace
-        <strong class="font-extrabold text-blue-700 sm:block text-3xl"> Discover Quality Products Online Now. </strong>
+        Sàn thương mại điện tử về thời trang
+        <strong class="font-extrabold text-gray-700 sm:block text-3xl">
+          Khám phá ngay các sản phẩm chất lượng.
+        </strong>
       </h1>
 
       <p class="mt-4 sm:text-xl/relaxed">
-      Browse our collection of high-quality products and enjoy seamless online shopping.
+        Tham khảo bộ sưu tập các sản phẩm chất lượng cao và trải nghiệm mua sắm trực tuyến liền mạch.
       </p>
 
       <div class="mt-8 flex flex-wrap justify-center gap-4">
-			@if (auth()->check())
-				<a
-				class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-				href="/offer"
-				>
-				Redeem your offer Now!
-				</a>
-			@else
-				<a
-				class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-				href="/auth/login"
-				>
-				Get Started
-				</a>
+        @if (auth()->check())
+          <a
+            class="block w-full rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring active:bg-gray-500 sm:w-auto"
+            href="/offer"
+          >
+            Nhận ưu đãi ngay!
+          </a>
+        @else
+          <a
+            class="block w-full rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring active:bg-gray-500 sm:w-auto"
+            href="/auth/login"
+          >
+            Bắt đầu ngay
+          </a>
         @endif
-        
 
         <a wire:navigate
-          class="block w-full bg-white rounded px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
+          class="block w-full bg-white rounded px-12 py-3 text-sm font-medium text-gray-600 shadow hover:text-gray-700 focus:outline-none focus:ring active:text-gray-500 sm:w-auto"
           href="all/products"
         >
-          Explore More
+          Khám phá thêm
         </a>
       </div>
     </div>
