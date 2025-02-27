@@ -6,13 +6,13 @@
 
 ## 1. Giới Thiệu
 
-**👨‍💻 Minh Hien** 
+**👨‍💻 Minh Hien**
 
 - **Mục tiêu:**  
   Xây dựng một ứng dụng thương mại điện tử tối giản, giúp người dùng dễ dàng tìm kiếm, xem chi tiết sản phẩm, thêm vào giỏ hàng và đặt hàng, đồng thời cho admin quản lý sản phẩm, danh mục và đơn hàng.
 
 - **Phạm vi:**  
-  - **Người dùng:** Truy cập trang chủ, xem danh sách sản phẩm, chi tiết sản phẩm, tìm kiếm sản phẩm theo từ khóa, sử dụng giỏ hàng và đặt hàng (đang phát triển).  
+  - **Người dùng:** Truy cập trang chủ, xem danh sách sản phẩm, chi tiết sản phẩm, tìm kiếm sản phẩm theo từ khóa, sử dụng giỏ hàng và đặt hàng (đang phát triển).
   - **Quản trị viên:** Quản lý sản phẩm (CRUD), danh mục sản phẩm (CRUD) và đơn hàng thông qua dashboard admin.
 
 ---
@@ -34,9 +34,9 @@
 
 *Hình ảnh minh họa sơ đồ cấu trúc và chức năng của ứng dụng:*
 
-![Cấu trúc chức năng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/cn.png)
+![Cấu trúc chức năng](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/cn.png)
 
-![Sơ đồ chi tiết chức năng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/sdct.png)
+![Sơ đồ chi tiết chức năng](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/sdct.png)
 
 ---
 
@@ -44,27 +44,27 @@
 
 ### 4.1. Sơ Đồ Tuần Tự Xác Thực Người Dùng
 
-![Xác thực người dùng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/auth.png)
+![Xác thực người dùng](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/auth.png)
 
 ### 4.2. Sơ Đồ Tuần Tự Quản Lý Sản Phẩm (Admin CRUD)
 
-![Quản lý sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/crudadmin.png)
+![Quản lý sản phẩm](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/crudadmin.png)
 
 ### 4.3. Sơ Đồ Tuần Tự Quản Lý Danh Mục Sản Phẩm (Admin CRUD)
 
-![Quản lý danh mục](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/category.png)
+![Quản lý danh mục](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/category.png)
 
 ### 4.4. Sơ Đồ Tuần Tự Tìm Kiếm Sản Phẩm
 
-![Tìm kiếm sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/search.png)
+![Tìm kiếm sản phẩm](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/search.png)
 
 ### 4.5. Sơ Đồ Tuần Tự Xem Chi Tiết Sản Phẩm
 
-![Xem chi tiết sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/productdetail.png)
+![Xem chi tiết sản phẩm](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/productdetail.png)
 
 ### 4.6. Sơ Đồ Tuần Tự Thêm Sản Phẩm Vào Giỏ Hàng
 
-![Thêm sản phẩm vào giỏ hàng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/card.png)
+![Thêm sản phẩm vào giỏ hàng](https://raw.githubusercontent.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/main/my_e_commerce/public/images/bc/card.png)
 
 ---
 
@@ -89,16 +89,15 @@
    Phát triển các component Livewire, controllers, models và views.
 
 4. **Build và triển khai ứng dụng:**  
-   - Sử dụng `npm run build` để tối ưu asset.  
-   - Chạy migration với `php artisan migrate`.  
+   - Sử dụng `npm run build` để tối ưu asset.
+   - Chạy migration với `php artisan migrate`.
    - Khởi động ứng dụng bằng `php artisan serve`.
----
-   - [Link website](https://trangthuongmaidientularavel-production.up.railway.app) : https://trangthuongmaidientularavel-production.up.railway.app
-   - [Link repo](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel) : https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel
+
 ---
 
-*Tài khoản mật  khẩu cho admin: admin@gmail.com admin12345 khi truy cập https://trangthuongmaidientularavel-production.up.railway.app/admin/dashboard
+- [Link website](https://trangthuongmaidientularavel-production.up.railway.app): https://trangthuongmaidientularavel-production.up.railway.app
+- [Link repo](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel):https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel
 
+---
 
-
-
+*Tài khoản mật khẩu cho admin: admin@gmail.com / admin12345 khi truy cập https://trangthuongmaidientularavel-production.up.railway.app/admin/dashboard
