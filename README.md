@@ -34,9 +34,9 @@
 
 *Hình ảnh minh họa sơ đồ cấu trúc và chức năng của ứng dụng:*
 
-![Cấu trúc chức năng](./public/images/bc/cn.png)
+![Cấu trúc chức năng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/cn.png)
 
-![Sơ đồ chi tiết chức năng](./public/images/bc/sdct.png)
+![Sơ đồ chi tiết chức năng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/sdct.png)
 
 ---
 
@@ -44,27 +44,27 @@
 
 ### 4.1. Sơ Đồ Tuần Tự Xác Thực Người Dùng
 
-![Xác thực người dùng](./public/images/bc/auth.png)
+![Xác thực người dùng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/auth.png)
 
 ### 4.2. Sơ Đồ Tuần Tự Quản Lý Sản Phẩm (Admin CRUD)
 
-![Quản lý sản phẩm](./public/images/bc/crudadmin.png)
+![Quản lý sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/crudadmin.png)
 
 ### 4.3. Sơ Đồ Tuần Tự Quản Lý Danh Mục Sản Phẩm (Admin CRUD)
 
-![Quản lý danh mục](./public/images/bc/category.png)
+![Quản lý danh mục](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/category.png)
 
 ### 4.4. Sơ Đồ Tuần Tự Tìm Kiếm Sản Phẩm
 
-![Tìm kiếm sản phẩm](./public/images/bc/productdetail.png)
+![Tìm kiếm sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/search.png)
 
 ### 4.5. Sơ Đồ Tuần Tự Xem Chi Tiết Sản Phẩm
 
-![Xem chi tiết sản phẩm](./public/images/bc/card.png)
+![Xem chi tiết sản phẩm](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/productdetail.png)
 
 ### 4.6. Sơ Đồ Tuần Tự Thêm Sản Phẩm Vào Giỏ Hàng
 
-![Thêm sản phẩm vào giỏ hàng](./public/images/bc/card.png)
+![Thêm sản phẩm vào giỏ hàng](https://github.com/jimm9Tran/TrangThuongMaiDienTu_Laravel/blob/main/my_e_commerce/public/images/bc/card.png)
 
 ---
 
